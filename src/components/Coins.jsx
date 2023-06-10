@@ -47,13 +47,13 @@ const Coins = () => {
       {
         loader ? <Loader /> : (
           <>
-          {/* <RadioGroup>
-          <HStack>
-            <Radio value={"inr"}>
-              INR
-            </Radio>
+          <RadioGroup value={currency} onChange={setCurrency} p={'8'}>
+          <HStack spacing={"4"}>
+            <Radio value={"inr"}>INR</Radio>
+            <Radio value={"usd"}>USD</Radio>
+            <Radio value={"eur"}>EUR</Radio>
           </HStack>
-          </RadioGroup> */}
+          </RadioGroup>
             <HStack wrap={'wrap'}>
               {
                 coins.map((i) => (
