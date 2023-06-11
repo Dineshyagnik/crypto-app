@@ -54,7 +54,7 @@ const Coins = () => {
             <Radio value={"eur"}>EUR</Radio>
           </HStack>
           </RadioGroup>
-            <HStack wrap={'wrap'}>
+            <HStack wrap={'wrap'} justifyContent={'space-evenly'}>
               {
                 coins.map((i) => (
                   <CoinCard
@@ -74,6 +74,7 @@ const Coins = () => {
               {
                 btns.map((item, index) => (
                   <Button
+                  key={index}
                     bgColor={'blackAlpha.900'}
                     color={'white'}
                     onClick={() => changePage(index+1)}
