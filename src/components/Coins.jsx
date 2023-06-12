@@ -15,7 +15,7 @@ const Coins = () => {
   const [page, setPage] = useState(1);
   const [currency, setCurrency] = useState('inr');
 
-  const currencySymbol = currency === "inr" ? "₹" : currency === "eur" ? "€" : "$"
+  const currencySymbol = currency === "inr" ? "₹" : currency === "eur" ? "€" : "$";
 
   const changePage = (page) => {
     setPage(page);
@@ -36,7 +36,6 @@ const Coins = () => {
       }
     };
     fetchCoins();
-
   }, [currency, page]);
 
   if (error) return <ErrorComponent message={"Error while Fetching Coins"} />
