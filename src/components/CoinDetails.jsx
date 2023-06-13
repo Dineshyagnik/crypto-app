@@ -5,6 +5,9 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { server } from '../index';
 import ErrorComponent from './ErrorComponent';
+import chart from '../components/chart';
+
+
 const CoinDetails = () => {
 
   const [coin, setCoin] = useState({});
@@ -40,7 +43,7 @@ const CoinDetails = () => {
         loader ? <Loader /> : (
           <>
             <Box w={'full'} borderWidth={1}>
-              Box
+              <chart />
             </Box>
 
             {/* Button  */}
