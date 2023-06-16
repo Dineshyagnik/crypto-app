@@ -27,6 +27,7 @@ const Footer = () => {
                     >
                         We are the best crypto trading app in India, we provide our guidance
                         at a very cheap price.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fugiat unde consequuntur dolore a, illo, laboriosam, suscipit repellendus minima praesentium modi voluptas fuga. Odit in inventore accusantium culpa maiores minus! In vero ratione atque! Exercitationem eveniet minus maiores ullam unde quae excepturi molestiae provident quam impedit consectetur omnis magni optio architecto pariatur nisi error hic, quasi, obcaecati voluptates. Laudantium consequatur, accusantium libero eius placeat, tempora rem laboriosam veniam itaque ab magnam magni eveniet ut, enim dolores laborum dolore? Nemo officia aut soluta quas maiores consectetur libero quaerat aliquid reprehenderit. Numquam quod blanditiis error, ab earum est alias quo cumque id!
                     </Text>
                 </VStack>
                 <VStack>
